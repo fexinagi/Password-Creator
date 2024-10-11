@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="icon" href="./style/assest/Logotip.png">
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">Password Generator</h1>
+        <div id="form">
+            <input type="number" id="length" name="length" min="8" max="30" placeholder="Password length:" required>
+            <button onclick="generatePassword()" id="button">Generate Password</button>
+            <input type="text" id="password" readonly>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
